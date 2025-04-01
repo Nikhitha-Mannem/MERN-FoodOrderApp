@@ -1,0 +1,27 @@
+.carouselWrapper {
+    position: relative;
+    margin-top: 0;
+}
+
+.carouselImage {
+    height: 500px;
+    object-fit: cover;
+}
+
+.searchOverlay {
+    position: absolute;
+    bottom: 5px; /* 👈 pushes it to bottom with 5px margin */
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    padding: 10px 20px;
+    
+    border-radius: 8px;
+}
+
+.searchInput {
+    width: 50%;
+    max-width: 500px;
+    padding: 10px;
+}
